@@ -1,0 +1,188 @@
+Smartapp	category	Trigger-action	conditions
+bright-when-dark-and-or-bright-after-sunset	convenience	motion_sensor - lights on || illuminance_sensor threshold - lights off 	illuminance threshold and time || motion threshold or timer
+good-night-house	convenience		
+goodnight-ubi	Safety & Security		
+jenkins-notifier	Fun & Social	server_response fail - lights on || server_response success - lights off	time || server_response
+gidjit-hub	convenience		
+beaconthings-manager	convenience		
+obything-music-connect	SmartThings Labs		
+working-from-home	Mode magic		
+vinli-home-connect	SmartThings Labs		
+curb-control	convenience		
+curb-energy-manager	Green Living		
+curb-energy-monitor	Green Living		
+co2-vent	Health & Wellness	CO2_sensor high - switch on 	
+netatmo-connect	SmartThings Labs		
+thermostat-auto-off	green Living	door_sensor open - thermostat off || windows_sensor open - thermostat off || door_sensor and windows_sensor close - thermostat on	
+whole-house-fan	green Living	temperature_sensor high - fan on	thermostat off
+humidity-alert	convenience	humidity_sensor high - switch on || humidity_sensor low - switch off	 
+let-there-be-dark	convenience	contact_sensor open - lights off || contact_sensor close - lights on	lights on 
+smart-windows	convenience	window_sensor open - user_notify || window_sensor close - user_notify	temperature threshold
+weather-windows	convenience	window_sensor open - user_notify || window_sensor close - user_notify	temperature threshold
+smart-energy-service			
+gideon-smart-home	Family		
+gideon	Family		
+coffee-after-shower	My apps	humidity_sensor high - coffee_maker on	
+door-knocker	convenience	knock_sensor - user_notify	door_sensor not opened
+forgiving-security	Safety & Security	contact_sensor - user_notify || motion_sensor - user_notify || security_alarm - user_notify || smoke_alarm - user_notify	locationMode away 
+hall-light-welcome-home	convenience	presence_sensor and door_sensor open - lights on	
+nobody-home	Mode magic	presence_sensor - locationMode	
+ready-for-rain	convenience	weather - user_notify	door_sensor or window_sensor open
+safe-watch	Safety & Security	contact_sensor - user_notify || motion_sensor - user_notify || knock_sensor - user_notify || Three-axis_sensor - user_notify || temperature_sensor - user_notify	locationMode away
+thermostat-window-check	Green living	contact_sensor open - user_notify || contact_sensor open - thermostat off	
+initial-state-event-streamer	Smartthings lab		
+my-light-toggle	convenience	motion_sensor - lights on || motion_sensor - lights off	
+door-jammed-notification	My apps	door_sensor - user_notify	
+door-state-to-color-light-hue-bulb	My apps	door_sensor - lights color	
+auto-humidity-vent	convenience	humidity_sensor - fan on	humidity threshold
+jawbone-button-notifier	Smartthings lab		
+jawbone-up-connect	Smartthings lab		
+turn-off-with-motion	My apps	motion_sensor - lights off	motion threshold
+enhanced-auto-lock-door	Safety & Security	door_sensor - door_lock lock || door_sensor - door_lock unlock	timer timer
+weather-underground-pws-connect	Green living		
+medicine-management-contact-sensor	Health & Wellness	contact_sensor - user_notify || contact_sensor - lights color	timer
+medicine-management-temp-motion	Health & Wellness	Regrigerator - user_notify 	temperature threshold
+color-coordinator	convenience		
+smart-home-ventilation	convenience		
+switch-activates-home-phrase-or-mode	convenience		
+switch-activates-home-phrase	convenience		
+switch-changes-mode	convenience		
+talking-alarm-clock	convenience		
+lights-off-with-no-motion-and-presence	convenience	motion_sensor - lights off	presence_sensor threshold 
+opent2t-smartapp-test	Smartthings lab		
+plantlink-connector	convenience		
+spruce-scheduler	Green living		
+smart-light-timer-x-minutes-unless-already-on	convenience	motion_sensor - switch on || contact_sensor open - switch on	
+rachio-connect	Green living		
+monitor-on-sense	My apps	vibration_sensor - switch on 	
+simple-sync-connect	My apps		
+simple-sync-trigger	My apps		
+simple-control	My apps		
+shabbat-and-holiday-modes	My apps	server_response - locationMode 	
+smart-humidifier	convenience	humidity_sensor low - humidifier on || humidity_sensor high - humidifier off	
+smart-turn-it-on	convenience	presence_sensor - lights on	time
+door-lock-code-distress-message	Safety & Security	door_lock code - user_notify	
+smart-auto-lock-unlock	Safety & Security	door_sensor close - door_lock lock	timer
+beacon-control	SmartThings Internal	beacon_sensor enter - lights on || beacon_sensor leave - lights off || beacon_sensor leave - door_lock lock || beacon_sensor enter - door_lock unlock	
+big-turn-off	convenience		
+big-turn-on	convenience		
+bon-voyage	Mode magic	presence_sensor - locationMode	
+bose-soundtouch-control	SmartThings Labs	motion_sensor - speaker || contact_sensor - speaker || acceleration_sensor - speaker || switch on - speaker || switch off - speaker || presence_sensor - speaker || smoke_detector - speaker || water_sensor - speaker || button - speaker || locationMode - speaker	
+brighten-dark-places	convenience	door_sensor - lights on 	illuminance threshold
+brighten-my-path	convenience	motion_sensor - lights on	
+button-controller	convenience		
+camera-power-scheduler	Available beta apps	time - camera on || time - camera off	timer
+cameras-on-when-im-away	Available beta apps	locationMode away - camera on	
+carpool-notifier	Green living	presence_sensor - user_notify	
+close-the-valve	Safety & Security	water_sensor wet - valve close	
+curling-iron	convenience	motion_sensor - switch on || presence_sensor - switch on	timer
+darken-behind-me	convenience	motion_sensor - lights off	timer
+double-tap	convenience	 	
+dry-the-wetspot	Safety & Security	water_sensor wet - switch on || water_sensor dry - switch off	
+ecobee-connect	Smartthings Labs		
+elder-care-daily-routine	Family	motion_sensor - user_notify || contact_sensor - user_notify	time
+elder-care-slip-fall	Family	motion_sensor - user_notify	time
+energy-alerts	Green living	power_meter threshold - user_notify	
+energy-saver	green living	power_meter threshold - switch off	
+every-element	SmartThings Internal		
+feed-my-pet	Pets	time - pet_feeder 	
+flood-alert	Safety & Security	water_sensor wet - user_notify	
+foscam-connect	Smartthings Internal		
+garage-door-monitor	Safety & Security	garagedoor_sensor - user_notify	timer
+garage-door-opener	convenience	switch on - garagedoor_lock unlock	
+gentle-wake-up	Health & Wellness		
+good-night	Mode magic	motion_sensor - locationMode	"timer, time"
+greetings-earthling	Mode magic	presence_sensor - locationMode	
+habit-helper	Family		
+has-barkley-been-fed	Pets	time - pet_feeder 	
+hub-ip-notifier	Smartthings Internal		
+hue-mood-lighting	Smartthings Labs	motion_sensor - lights color || contact_sensor - lights color || acceleration_sensor - lights color || switch on - lights color || switch off - lights color || presence_sensor - lights color || smoke_detector - lights color || water_sensor - lights color || button - lights color || locationMode - lights color	
+ifttt	Smartthings Internal		
+it-moved	Fun & Social		
+its-too-cold	convenience	temperature_sensor low- heater on || temperature_sensor low - user_notify	
+its-too-hot	convenience	temperature_sensor high- fan on || temperature_sensor high - user_notify	
+keep-me-cozy-ii	green living	locationMode - thermostat	
+keep-me-cozy	green living	locationMode - thermostat	
+laundry-monitor	convenience	dryer - user_notify || washer - user_notify 	
+left-it-open	convenience	window_sensor - user_notify || door_sensor - user_notify 	timer || timer
+let-there-be-light	convenience	door_sensor open - lights on || door_sensor close - lights off	
+life360-connect	SmartThings Labs		
+lifx-connect	convenience		
+light-follows-me	convenience	motion_sensor - lights on || motion_sensor - lights off	- || timer
+light-up-the-night	convenience	illuminance_sensor low - lights on || illuminance_sensor high - lights off	
+lights-off-when-closed	convenience	door_sensor close - lights off	
+lock-it-when-i-leave	Safety & Security	presence_sensor - door_lock lock	
+logitech-harmony-connect	SmartThings Labs		
+mail-arrived	convenience	acceleration_sensor - user_notify	
+make-it-so	convenience		
+medicine-reminder	Health & Wellness	contact_sensor close - user_notify	time
+mini-hue-controller	SmartThings Labs	button - lights color	
+mood-cube	SmartThings Labs	 	
+nfc-tag-toggle	Smartthings Internal	nfc_tag - switch on || nfc_tag - switch off || nfc_tag - door_lock lock || nfc_tag - door_lock unlock || nfc_tag -garage_door lock || nfc_tag -garage_door unlock	
+notify-me-when-it-opens	convenience	door_sensor open - user_notify || window_sensor open - user_notify	
+notify-me-when	convenience	motion_sensor - user_notify || contact_sensor open - user_notify || contact_sensor close - user_notify || acceleration_sensor - user_notify || switch on - user_notify || switch off - user_notify || presence_sensor present - user_notify || presence_sensor not_present - user_notify || smoke_detector - user_notify || water_sensor wet - user_notify || button - user_notify	
+notify-me-with-hue	Smartthings Labs	motion_sensor - lights color || contact_sensor open - lights color || contact_sensor close - lights color || acceleration_sensor - lights color || switch on - lights color || switch off - lights color || presence_sensor present - lights color || presence_sensor not_present - lights color || smoke_detector - lights color || water_sensor wet - lights color || button - lights color	
+once-a-day	convenience	time - switch on || time - switch off	
+photo-burst-when	Smartthings Labs	motion_sensor - security_camera image_capture || contact_sensor open - security_camera image_capture || switch on - security_camera image_capture || presence_sensor present - security_camera image_capture || presence_sensor not_present - security_camera image_capture || acceleration_sensor - security_camera image_capture	
+power-allowance	green living	timer - switch off	switch on
+presence-change-push	Safety & Security	presence_sensor present - user_notify	
+presence-change-text	safety & Security	presence_sensor present - user_notify	
+ridiculously-automated-garage-door	convenience	presence_sensor present - garagedoor_lock unlock || presence_sensor not_present - garagedoor_lock lock	- || timer
+rise-and-shine	Mode magic	motion_sensor - locationMode	
+scheduled-mode-change	Mode magic	time - locationMode	
+send-ham-bridge-command-when	convenience		
+severe-weather-alert	safety & Security		
+single-button-controller	Reviewers		
+sleepy-time	Smartthings Labs		
+smart-care-daily-routine	Family	motion_sensor - user_notify	
+smart-care-detect-motion	family	motion_sensor - user_notify	timer
+smart-nightlight	convenience	motion_sensor - lights on || illuminance_sensor threshold - lights off || timer - lights off	illuminance threshold - -
+smart-security	safety & Security		
+smartweather-station-controller	convenience		
+sonos-music-modes	SmartThings Internal	locationMode - speaker	
+sonos-remote-control	SmartThings Internal	button - speaker	
+speaker-control	Smartthings Labs	motion_sensor - speaker || contact_sensor open - speaker || contact_sensor close - speaker || acceleration_sensor - speaker || switch on - speaker || switch off - speaker || presence_sensor present - speaker || presence_sensor not_present - speaker || smoke_detector - speaker || water_sensor wet - speaker || button - speaker || locationMode - speaker || time - speaker	
+speaker-mood-music	Smartthings Labs		
+speaker-notify-with-sound	Smartthings Labs	motion_sensor - speaker || contact_sensor open - speaker || contact_sensor close - speaker || acceleration_sensor - speaker || switch on - speaker || switch off - speaker || presence_sensor present - speaker || presence_sensor not_present - speaker || smoke_detector - speaker || water_sensor wet - speaker || button - speaker || locationMode - speaker || time - speaker	
+speaker-weather-forecast	Smartthings Labs	motion_sensor - speaker || contact_sensor open - speaker || contact_sensor close - speaker || acceleration_sensor - speaker || switch on - speaker || switch off - speaker || presence_sensor present - speaker || presence_sensor not_present - speaker || smoke_detector - speaker || water_sensor wet - speaker || button - speaker || locationMode - speaker || time - speaker	
+step-notifier	Smartthings Labs		
+sunrise-sunset	mode magic	time - locationMode || time - lights on || time - lights off	
+tesla-connect	Smartthings Labs		
+text-me-when-it-opens	convenience	contact_sensor open - user_notify	
+text-me-when-theres-motion-and-im-not-here	convenience	motion_sensor - user_notify	presence_sensor not_present
+the-big-switch	convenience	switch off - lights on || switch on - lights on || switch off - lights off || switch on - lights off	
+the-flasher	convenience	motion_sensor - lights on || contact_sensor open - lights on || switch on - lights on || presence_sensor present - lights on || acceleration_sensor - lights on	
+the-gun-case-moved	safety & Security	acceleration_sensor - user_notify	
+thermostats	SmartSolutions	smoke_detector - user_notify || CO_detector - user_notify	
+device-tile-controller	SmartThings Internal		
+turn-it-on-for-5-minutes	safety & Security	contact_sensor - switch on || timer - switch off	
+turn-it-on-when-im-here	convenience	presence_sensor present - switch on || presence_sensor not_present - switch off	
+turn-it-on-when-it-opens	convenience	contact_sensor - switch on	
+turn-on-only-if-i-arrive-after-sunset	convenience	presence_sensor present and time - switch on || presence_sensor not_present - switch off	
+ubi	-		
+undead-early-warning	safety & Security	door_sensor open - lights on	
+unlock-it-when-i-arrive	safety & Security	presence_sensor present - door_lock unlock	
+virtual-device-creator	-		
+virtual-thermostat	green living		
+wattvision-manager	-		
+when-its-going-to-rain	convenience		
+withings-manager	-		
+withings	Connections		
+yoics-connect	Smartthings Internal	 	
+sprayer-controller-2	My apps		
+smart-alarm	safety & Security	locationMode - security_system armed || locationMode - security_system disarmed || security_alarm - lights on || security_alarm - user_notify	
+stelpro-get-remote-temperature	convenience	 	
+hello-home-phrase-director	convenience		
+lighting-director	convenience		
+routine-director	convenience		
+thermostat-mode-director	Green living	door_sensor open - thermostat off || window_sensor open - thermostat off || temperature_sensor threshold - thermostat mode	
+vacation-lighting-director	safety & Security	time - lights on || time - lights off	locationMode away
+lock-it-at-a-specific-time	safety & Security	time - door_lock lock	
+alfred-workflow	convenience		
+smartblock-chat-sender	-		
+smartblock-linker	-		
+smartblock-manager	-		
+smartblock-notifier	-		
+quirky-connect	SmartThings Labs		
+tcp-bulbs-connect	SmartThings Labs		
+weatherbug-home	My apps		
